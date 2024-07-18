@@ -1,10 +1,10 @@
-package expanses_tracker;
+package com.proxym.expense.tracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExpansesTrackerApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
