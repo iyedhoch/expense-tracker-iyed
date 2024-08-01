@@ -9,8 +9,10 @@ public interface UserService {
     void addUser(UserEntity userEntity);
 
     List<UserEntity>getAllUsers();
-     Optional<UserEntity> getUserById(Long id);
+    UserEntity getUserById(Long id);
 
      void addUse(UserEntity userEntity);
+
+     UserEntity updateUser(Long id,UserEntity userEntity);
 
 }
