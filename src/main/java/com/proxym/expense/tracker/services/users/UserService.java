@@ -10,4 +10,7 @@ public interface UserService {
 
     List<UserEntity>getAllUsers();
      Optional<UserEntity> getUserById(Long id);
+
+     void addUse(UserEntity userEntity);
+
 }
